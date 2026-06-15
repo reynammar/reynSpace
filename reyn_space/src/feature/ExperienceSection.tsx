@@ -11,28 +11,28 @@ const expData = [
     period: "2025 - Sekarang",
     logo: "/assets/experience/BCC.png",
     desc: "Bagian dari tim pengembang website BCC Filkom, bertanggung jawab dalam maintenance dan pengembangan fitur-fitur baru, serta memastikan website tetap responsif dan mudah diakses oleh pengguna.",
-    projectImg: "/assets/experience/BCC.png",
-    link: "https://github.com/username/bcc-project"
+    projectImg: "/assets/VeloMom.jpg",
+    link: "https://github.com/reynammar/velomom-fe"
   },
   {
     id: 'brawijaya-appreciate',
     role: "Frontend Developer",
     company: "Brawijaya Appreciate 2025",
     period: "2025",
-    logo: "/assets/experience/BCC.png",
+    logo: "/assets/experience/braciate.jpg",
     desc: "Mengembangkan antarmuka website acara, menciptakan desain yang responsif dan user-friendly, serta mengimplementasikan fitur polling yang interaktif dan real time untuk mendukung keberlangsungan acara.",
-    projectImg: "/assets/experience/BCC.png",
-    link: "https://github.com/username/bcc-project"
+    projectImg: "/assets/experience/braciatte-web.jpg",
+    link: "https://www.braciate.web.id/home"
   },
   {
     id: 'synergy',
     role: "Frontend Developer",
     company: "Synergy of Symphony 2025",
     period: "2025",
-    logo: "/assets/experience/BCC.png",
+    logo: "/assets/experience/logo-sos.svg",
     desc: "Mengembangkan dan mendesain website untuk memastikan keselarasan acara ospek mahasiswa Departemen Sistem Informasi.",
-    projectImg: "/assets/experience/BCC.png",
-    link: "https://github.com/username/synergy-project"
+    projectImg: "/assets/experience/sos-web.jpg",
+    link: "https://sos.ub.ac.id/home"
   }
 ];
 
@@ -41,9 +41,8 @@ export default function ExperienceSection() {
 
   return (
     <section id="experience" className="w-full max-w-5xl mx-auto py-20 px-4">
-      <div className="flex items-center justify-between mb-8 border-b border-neutral-700/50 pb-4">
+      <div className="flex items-center justify-between mb-8 border-b-4 border-white pb-4">
         <h3 className="text-2xl font-black text-white drop-shadow-md">Experience</h3>
-        <span className="text-sm text-cyan-400 font-mono bg-neutral-900 px-3 py-1 rounded-full border border-cyan-400/30">Section_03</span>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 bg-neutral-900/95 backdrop-blur-md rounded-xl border border-neutral-700 shadow-2xl overflow-hidden min-h-[450px]">

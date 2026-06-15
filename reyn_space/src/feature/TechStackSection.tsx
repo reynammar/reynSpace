@@ -57,6 +57,9 @@ export default function TechStackSection() {
 
   return (
     <section id="techstack" className="w-full max-w-5xl mx-auto py-20 px-4">
+      <div className="flex items-center justify-between mb-8 border-b-4 border-white pb-4">
+        <h3 className="text-2xl font-black text-white drop-shadow-md">Tech Stack</h3>
+      </div>
       <div className="flex flex-col md:flex-row gap-6 bg-neutral-900/95 backdrop-blur-md rounded-xl border border-neutral-700 shadow-2xl overflow-hidden min-h-[400px]">
         
         <div className="w-full md:w-1/3 bg-neutral-800/50 border-b md:border-b-0 md:border-r border-neutral-700 p-4 flex flex-col gap-6 overflow-y-auto custom-scrollbar max-h-[250px] md:max-h-full">

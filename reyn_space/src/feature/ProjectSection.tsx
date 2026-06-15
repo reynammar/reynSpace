@@ -14,7 +14,37 @@ const projectData = [
     image: "/assets/RuangSela.jpg",
     githubUrl: "https://github.com/reynammar/RuangSela",
     liveUrl: "https://ruang-selakita.vercel.app/" 
-  }
+  },
+  {
+    id: 'velomom',
+    title: "Velomom",
+    type: "Personal Project",
+    desc: "Platform pendampingan profesional untuk ibu pasca kelahiran dalam menanggulani resiko baby blues.",
+    tech: ["ReactJS", "TypeScript", "Tailwind CSS"],
+    image: "/assets/VeloMom.jpg",
+    githubUrl: "https://github.com/reynammar/velomom-fe",
+    liveUrl: "https://velomom.vercel.app/home" 
+  },
+  {
+    id: 'sewascaf',
+    title: "Sewascaf",
+    type: "Personal Project",
+    desc: "Platform pencarian vendor scaffolding yang transparan, terpercaya, dan pastinya terjangkau untuk kebutuhan proyek-proyek konstruksi.",
+    tech: ["NextJs", "TypeScript", "Tailwind CSS", "GoLang", "Gin", "Supabase", "Gemini API"],
+    image: "/assets/Sewascaf.jpg",
+    githubUrl: "https://github.com/reynammar/sewascaf",
+    liveUrl: "" 
+  },
+  {
+    id: 'kkp',
+    title: "KKP",
+    type: "Personal Project",
+    desc: "Platform otomatisasi e-ticket bus pariwisata yang dilengkapi dengan sistem reservasi, pembayaran digital, dan manajemen armada.",
+    tech: ["NextJs", "TypeScript", "Tailwind CSS", "GoLang", "Gin"],
+    image: "/assets/KKP.jpg",
+    githubUrl: "https://github.com/reynammar/kkp-frontend",
+    liveUrl: "" 
+  },
 ];
 
 export default function ProjectSection() {
@@ -22,9 +52,8 @@ export default function ProjectSection() {
 
   return (
     <section id="projects" className="w-full max-w-5xl mx-auto py-20 px-4">
-      <div className="flex items-center justify-between mb-8 border-b border-neutral-700/50 pb-4">
-        <h3 className="text-2xl font-black text-white drop-shadow-md">Featured Projects</h3>
-        <span className="text-sm text-lime-400 font-mono bg-neutral-900 px-3 py-1 rounded-full border border-lime-400/30">Section_04</span>
+      <div className="flex items-center justify-between mb-8 border-b-4 border-white pb-4">
+        <h3 className="text-2xl font-black text-white drop-shadow-md">Projects</h3>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 bg-neutral-900/95 backdrop-blur-md rounded-xl border border-neutral-700 shadow-2xl overflow-hidden min-h-[500px]">

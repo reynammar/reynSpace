@@ -9,9 +9,8 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="w-full max-w-5xl mx-auto py-20 px-4">
-      <div className="flex items-center justify-between mb-8 border-b border-neutral-700/50 pb-4">
+      <div className="flex items-center justify-between mb-8 border-b-4 border-white pb-4">
         <h3 className="text-2xl font-black text-white drop-shadow-md">About Me</h3>
-        <span className="text-sm text-purple-400 font-mono bg-neutral-900 px-3 py-1 rounded-full border border-purple-400/30">Section_01.5</span>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6 bg-neutral-900/95 backdrop-blur-md rounded-xl border border-neutral-700 shadow-2xl overflow-hidden min-h-[400px]">
@@ -97,28 +96,23 @@ export default function AboutSection() {
             {activeTab === 'interests' && (
               <div className="animate-in fade-in slide-in-from-bottom-2 duration-300">
                 <h4 className="text-lg font-black text-white mb-4 flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-purple-500" /> Di Luar Layar
+                  <span className="w-2 h-2 rounded-full bg-purple-500" /> Hobi Saya
                 </h4>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
-                    <span className="text-xl mb-1 block">⛰️</span>
-                    <h6 className="text-sm font-bold text-white">Mountain Climbing</h6>
-                    <p className="text-[10px] text-neutral-400">Eksplorasi alam dan pendakian</p>
-                  </div>
-                  <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
-                    <span className="text-xl mb-1 block">🏎️</span>
-                    <h6 className="text-sm font-bold text-white">Formula 1</h6>
-                    <p className="text-[10px] text-neutral-400">Analisis strategi balap F1</p>
-                  </div>
-                  <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
                     <span className="text-xl mb-1 block">🎮</span>
-                    <h6 className="text-sm font-bold text-white">Action Games</h6>
-                    <p className="text-[10px] text-neutral-400">Survival & Action Adventure</p>
+                    <h6 className="text-sm font-bold text-white">Bermain Game</h6>
+                    <p className="text-[10px] text-neutral-400">Bermain casual game maupun game kompetitif</p>
                   </div>
                   <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
-                    <span className="text-xl mb-1 block">🏍️</span>
-                    <h6 className="text-sm font-bold text-white">Riding</h6>
-                    <p className="text-[10px] text-neutral-400">City riding & touring</p>
+                    <span className="text-xl mb-1 block">💻</span>
+                    <h6 className="text-sm font-bold text-white">Coding</h6>
+                    <p className="text-[10px] text-neutral-400">Membuat program-program dengan berbagai teknologi</p>
+                  </div>
+                  <div className="bg-neutral-800 p-3 rounded-lg border border-neutral-700">
+                    <span className="text-xl mb-1 block">🎶</span>
+                    <h6 className="text-sm font-bold text-white">Mendengarkan Musik</h6>
+                    <p className="text-[10px] text-neutral-400">Mendengarkan musik dari berbagai genre</p>
                   </div>
                 </div>
               </div>
