@@ -31,7 +31,7 @@ const projectData = [
     type: "Personal Project",
     desc: "Platform pencarian vendor scaffolding yang transparan, terpercaya, dan pastinya terjangkau untuk kebutuhan proyek-proyek konstruksi.",
     tech: ["NextJs", "TypeScript", "Tailwind CSS", "GoLang", "Gin", "Supabase", "Gemini API"],
-    image: "/assets/Sewascaf.jpg",
+    image: "/assets/SewaScaf.jpg",
     githubUrl: "https://github.com/reynammar/sewascaf",
     liveUrl: "" 
   },
